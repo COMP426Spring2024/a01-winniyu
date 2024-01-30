@@ -1,0 +1,89 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+section, header, footer, nav, div, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 100;
+    background-color: #FFF6D7;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul a {
+    font-weight: 700;
+    color: #4d4d4d;
+    height: 50px;
+    display: block;
+    position: relative;
+    font-size: 20px;
+}
+
+.menu span:hover{
+    text-decoration: underline;
+}
+
+header ul a span {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    font-size: 20px;
+}
+
+section[data-role="section"] {
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 75px 0 0 0;
+    margin: 0;
+}
+
+#section-section1 {
+    background:  #FFF6D7
+}
+
+#section-section2 {
+    background:  #FFF6D7;
+}
+
+#section-section3 {
+    background:  #FFF6D7
+}
+
+#section-section4 {
+    background:  #FFF6D7;
+}
+
+#section-section5 {
+    background:  #FFF6D7;
+}
+
+#section-section6 {
+    background:  #FFF6D7;
+}
+
+#section-section7 {
+    background:  #FFF6D7;
+}
