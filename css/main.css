@@ -264,7 +264,7 @@ img {
     border: none;
 }
 
-#section5 p{
+#section5 h2{
     font-family: 'Sunny Spells', sans-serif;
     color: #B2872D;
     font-size: 70px;
@@ -274,6 +274,28 @@ img {
     margin-bottom: 10px;
 }
 
+#section5 h3{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 170px;
+    margin-bottom: 10px;
+}
+
+#section5 p{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 20px;
+    position: relative;
+    letter-spacing: .2rem;
+}
+
+.more{
+    margin-right: 200px;
+}
+
 
 #matzu3{
     height: auto;
@@ -281,7 +303,108 @@ img {
     margin: 0 auto;
     position: relative;
     max-width: 50%;
+    float: left;
 }
+
+/*title*/
+.titlepage{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titlepage h1{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 90px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 50px;
+}
+
+.titlepage p{
+    color: #7E6B2B;
+    position: relative;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.titlepage h2{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 60px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 30px;
+}
+
+.titlepage h6{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+}
+
+/*video*/
+.videopage{
+    align-content: center;
+    align-items: center;
+}
+
+.videopage h1{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 60px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+.videopage h6{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+/*music*/
+
+.musicpage{
+    align-content: center;
+    align-items: center;
+}
+
+.musicpage h1{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 90px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+.musicpage h2,h6{
+    font-family: 'Sunny Spells', sans-serif;
+    color: #B2872D;
+    font-size: 40px;
+    position: relative;
+    letter-spacing: .2rem;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+
+
+
+
 
 
 
